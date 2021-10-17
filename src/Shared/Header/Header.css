@@ -1,0 +1,13 @@
+.header-container {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+.nav-item {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0e1133;
+  padding: 5px 20px;
+}
