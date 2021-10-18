@@ -25,7 +25,6 @@ function App() {
           <Route path="/services">
             <Services></Services>
           </Route>
-
           <Route path="/login">
             <Login></Login>
           </Route>
