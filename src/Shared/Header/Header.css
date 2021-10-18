@@ -3,6 +3,10 @@
   padding-bottom: 10px;
   background-color: white;
 }
+.header-top {
+  background-color: #f7f7f7;
+}
+
 .nav-item {
   text-decoration: none;
   display: inline-block;
@@ -10,4 +14,9 @@
   font-weight: 500;
   color: #0e1133;
   padding: 5px 20px;
+}
+.header-left-icon {
+  color: #000000;
+  font-size: 30px;
+  width: 40px;
 }
