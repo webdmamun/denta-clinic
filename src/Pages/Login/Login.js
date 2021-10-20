@@ -19,11 +19,9 @@ const Login = () => {
     signInGoogle()
       .then((result) => {
         history.push(redirect_uri);
-        // console.log(result.user);
         // setUser(result.user);
       })
       .catch((error) => {
-        // console.log(error.message);
         // setError(error.message);
       });
   };

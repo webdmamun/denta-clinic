@@ -30,16 +30,13 @@ const useFirebase = () => {
   // get value
   const handleNameChange = (e) => {
     setName(e.target.value);
-    // console.log(e.target.value);
   };
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
-    // console.log(e.target.value);
   };
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);
-    // console.log(e.target.value);
   };
 
   // Handle Registration
@@ -71,11 +68,9 @@ const useFirebase = () => {
     e.preventDefault();
     signInWithEmailAndPassword(auth, email, password)
       .then((result) => {
-        // console.log(result.user);
         setUser(result.user);
       })
       .catch((error) => {
-        // console.log(error.message);
         setError(error.message);
       });
   };
@@ -97,7 +92,6 @@ const useFirebase = () => {
   useEffect(() => {
     const unsubscribed = onAuthStateChanged(auth, (user) => {
       if (user) {
-        // console.log("inside state change", user);
         setUser(user);
       } else {
         setUser({});
