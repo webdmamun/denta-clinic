@@ -10,7 +10,7 @@ This project live on https://denta-clinic-83602.web.app/
 - Caries Removal with Ultrasound.
 - Treatment of the Oral Mucosa.
 - Effective Surgical Treatment of Patients
-- 24/7 support our tutor and students.
+- 24/7 support our patients.
 
 # Suggation
 For better suggestion contact with our developer: Email: info@webdmamun.com
