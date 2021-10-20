@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="py-5 footer-area">
       <Container>
         <Row className="justify-content-between">
-          <Col>
+          <Col className="col-md-3 col-lg-6 my-3">
             <div>
               <Link to="/">
                 <img src="https://i.ibb.co/RgzdH5T/logo.png" alt="Logo" />
@@ -28,7 +28,7 @@ const Footer = () => {
               </a>
             </div>
           </Col>
-          <Col className="d-flex justify-content-end">
+          <Col className="d-flex justify-content-end col-md-3 col-lg-6 my-3">
             <div className="wrapper">
               <div className="bottom">
                 <form action="#">
@@ -36,12 +36,12 @@ const Footer = () => {
                     <input
                       type="text"
                       name=""
-                      value=""
+                      defaultValue=""
                       placeholder="Enter your email"
                       required
                     />
 
-                    <input type="submit" name="" value="Subscribe" />
+                    <input type="submit" name="" defaultValue="Subscribe" />
                   </div>
                 </form>
                 <div className="info">

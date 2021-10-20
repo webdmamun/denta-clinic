@@ -1,6 +1,7 @@
 import React from "react";
 import "./Banner.css";
 import { Carousel } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -17,9 +18,11 @@ const Banner = () => {
               Dentistry with <br />a personal touch
             </h3>
             <p className="slide-sub-title">Better teeth, Better Health!</p>
-            <button className="btn btn-lg btn-info slide-button">
-              Book an Appointment
-            </button>
+            <Link to="/register">
+              <button className="btn btn-lg btn-info slide-button">
+                Book an Appointment
+              </button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -35,9 +38,11 @@ const Banner = () => {
               Natural Smiles{" "}
             </h3>
             <p className="slide-sub-title">A perfect smile guaranteed.</p>
-            <button className="btn btn-lg btn-info slide-button">
-              Book an Appointment
-            </button>
+            <Link to="/register">
+              <button className="btn btn-lg btn-info slide-button">
+                Book an Appointment
+              </button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -53,9 +58,11 @@ const Banner = () => {
               your smaile!{" "}
             </h3>
             <p className="slide-sub-title">The gentle dental center.</p>
-            <button className="btn btn-lg btn-info slide-button">
-              Book an Appointment
-            </button>
+            <Link to="/register">
+              <button className="btn btn-lg btn-info slide-button">
+                Book an Appointment
+              </button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
